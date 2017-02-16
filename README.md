@@ -1,5 +1,4 @@
-# docker_envs
-Docker environments for neuroimaging data analytics.
+# Docker environments for neuroimaging data analytics
 
 Dockerfiles available for using tools such as dcm2niix and FSL, along with Python and modules related to neuroimaging (PyDicom) and analytics (Anaconda). See individual Dockerfile for usage details.
 
