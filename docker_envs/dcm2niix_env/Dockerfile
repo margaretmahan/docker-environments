@@ -11,5 +11,6 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # update, install dcm2niix and pigz
 RUN apt-get update && \
-    apt-get install -y dcm2niix \
+    apt-get install -y python3 \
+    dcm2niix \
     pigz
