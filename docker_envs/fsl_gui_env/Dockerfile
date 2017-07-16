@@ -1,7 +1,6 @@
 # Dockerfile to create docker image for fsl with gui
 
-# usage: docker run -ti --rm -v /tmp/.X11-unix:/tmp/.X11-unix -v $HOME/.Xauthority:/home/developer/.Xauthority 
-# -v <host volume>:<container volume> --net=host --pid=host --ipc=host fsl_gui_env
+# usage: docker run -ti --rm -v /tmp/.X11-unix:/tmp/.X11-unix -v $HOME/.Xauthority:/home/developer/.Xauthority -v <host volume>:<container volume> --net=host --pid=host --ipc=host fsl_gui_env
 # may need to modify for xhost configuration
 
 # start with image from Xenial Ubuntu 16.04
